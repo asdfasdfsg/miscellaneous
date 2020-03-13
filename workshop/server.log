@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-03-13T15:38:56</date>
+  <millis>1584103136821</millis>
+  <sequence>0</sequence>
+  <logger>org.scavver.workshop.WorkshopServer</logger>
+  <level>INFO</level>
+  <class>org.scavver.workshop.WorkshopServer</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server started on 127.0.0.1:8888</message>
+</record>
