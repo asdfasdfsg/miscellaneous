@@ -1,6 +1,7 @@
 package org.scavver.workshop;
 
 import com.sun.net.httpserver.HttpServer;
+import org.scavver.workshop.http.RequestHandler;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
@@ -11,15 +12,15 @@ import java.util.logging.Handler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class WorkshopServer {
+public class Server {
 
-    private static final Logger LOGGER = Logger.getLogger(WorkshopServer.class.getName());
+    private static final Logger LOGGER = Logger.getLogger(Server.class.getName());
 
     public static void main(String[] args) throws IOException {
 
         HttpServer server = HttpServer.create(new InetSocketAddress("localhost", Config.SERVER_PORT), 0);
 
-        server.createContext("/", new MainHttpHandler());
+        server.createContext("/", new RequestHandler());
 
         ThreadPoolExecutor tpe = (ThreadPoolExecutor) Executors.newFixedThreadPool(10);
 

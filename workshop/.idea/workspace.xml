@@ -2,30 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69a2b5fc-b8e1-475a-b5e3-f26495773d78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/scavver/workshop/MainHttpHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/scavver/workshop/TestHttpHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/scavver/workshop/WorkshopServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/scavver/workshop/WorkshopServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/scavver/workshop/entity/Starship.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/scavver/workshop/entity/Starship.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/scavver/workshop/entity/Workshop.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/scavver/workshop/entity/Workshop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/scavver/workshop/MainHttpHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/scavver/workshop/WorkshopServer.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server.log" beforeDir="false" afterPath="$PROJECT_DIR$/server.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.log.lck" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/scavver/workshop/TestHttpHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/scavver/workshop/WorkshopServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scavver/workshop/WorkshopServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/scavver/workshop/entity/Starship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scavver/workshop/entity/Starship.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/scavver/workshop/entity/Workshop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scavver/workshop/entity/Workshop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scavver/workshop/MainHttpHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scavver/workshop/WorkshopServer.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +53,20 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.WorkshopServer">
+  <component name="RunManager" selected="Application.Server">
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.scavver.workshop.Server" />
+      <module name="workshop.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.scavver.workshop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WorkshopServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.scavver.workshop.WorkshopServer" />
       <module name="workshop.main" />
@@ -93,6 +95,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Server" />
         <item itemvalue="Gradle.workshop [dependencies]" />
         <item itemvalue="Application.WorkshopServer" />
       </list>
@@ -109,41 +112,53 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1804" height="197" key="GridCell.Tab.0.bottom" timestamp="1584603818916">
+    <state x="679" y="358" width="622" height="397" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584617869050">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="197" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1584603818916" />
-    <state width="1804" height="197" key="GridCell.Tab.0.center" timestamp="1584603818915">
+    <state x="679" y="358" width="622" height="397" key="#com.intellij.fileTypes.FileTypeChooser/70.27.1850.1053@70.27.1850.1053" timestamp="1584617869050" />
+    <state x="728" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584613939457">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="197" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1584603818915" />
-    <state width="1804" height="197" key="GridCell.Tab.0.left" timestamp="1584603818915">
+    <state x="728" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1584613939457" />
+    <state width="1804" height="197" key="GridCell.Tab.0.bottom" timestamp="1584618476994">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="197" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1584603818915" />
-    <state width="1804" height="197" key="GridCell.Tab.0.right" timestamp="1584603818916">
+    <state width="1804" height="197" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1584618476994" />
+    <state width="1804" height="197" key="GridCell.Tab.0.center" timestamp="1584618476994">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="197" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1584603818916" />
-    <state width="1804" height="340" key="GridCell.Tab.1.bottom" timestamp="1584602539333">
+    <state width="1804" height="197" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1584618476994" />
+    <state width="1804" height="197" key="GridCell.Tab.0.left" timestamp="1584618476993">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="340" key="GridCell.Tab.1.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1584602539333" />
-    <state width="1804" height="340" key="GridCell.Tab.1.center" timestamp="1584602539332">
+    <state width="1804" height="197" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1584618476993" />
+    <state width="1804" height="197" key="GridCell.Tab.0.right" timestamp="1584618476994">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="340" key="GridCell.Tab.1.center/70.27.1850.1053@70.27.1850.1053" timestamp="1584602539332" />
-    <state width="1804" height="340" key="GridCell.Tab.1.left" timestamp="1584602539332">
+    <state width="1804" height="197" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1584618476994" />
+    <state width="1804" height="340" key="GridCell.Tab.1.bottom" timestamp="1584618142032">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="340" key="GridCell.Tab.1.left/70.27.1850.1053@70.27.1850.1053" timestamp="1584602539332" />
-    <state width="1804" height="340" key="GridCell.Tab.1.right" timestamp="1584602539332">
+    <state width="1804" height="340" key="GridCell.Tab.1.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1584618142032" />
+    <state width="1804" height="340" key="GridCell.Tab.1.center" timestamp="1584618142031">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="340" key="GridCell.Tab.1.right/70.27.1850.1053@70.27.1850.1053" timestamp="1584602539332" />
-    <state x="676" y="387" key="com.intellij.ide.util.TipDialog" timestamp="1584603181610">
+    <state width="1804" height="340" key="GridCell.Tab.1.center/70.27.1850.1053@70.27.1850.1053" timestamp="1584618142031" />
+    <state width="1804" height="340" key="GridCell.Tab.1.left" timestamp="1584618142031">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="676" y="387" key="com.intellij.ide.util.TipDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1584603181610" />
+    <state width="1804" height="340" key="GridCell.Tab.1.left/70.27.1850.1053@70.27.1850.1053" timestamp="1584618142031" />
+    <state width="1804" height="340" key="GridCell.Tab.1.right" timestamp="1584618142032">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1804" height="340" key="GridCell.Tab.1.right/70.27.1850.1053@70.27.1850.1053" timestamp="1584618142032" />
+    <state x="676" y="387" key="com.intellij.ide.util.TipDialog" timestamp="1584617035469">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="676" y="387" key="com.intellij.ide.util.TipDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1584617035469" />
+    <state x="560" y="258" width="869" height="590" key="find.popup" timestamp="1584613197372">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="560" y="258" width="869" height="590" key="find.popup/70.27.1850.1053@70.27.1850.1053" timestamp="1584613197372" />
   </component>
 </project>
