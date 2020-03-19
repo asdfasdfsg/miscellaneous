@@ -26,11 +26,11 @@ public class RequestHandler implements HttpHandler {
                 switch (requestURI) {
 
                     case "/next":
-                        Util.response(exchange, 400);
+                        HttpUtils.response(exchange, 400);
                         break;
 
                     default:
-                        Util.response(exchange, 404);
+                        HttpUtils.response(exchange, 404);
 
                 }
                 break;
@@ -41,21 +41,21 @@ public class RequestHandler implements HttpHandler {
                 switch (requestURI) {
 
                     case "/numberOfPlaces":
-                        Util.response(exchange, WorkshopController.numberOfPlaces(exchange));
+                        HttpUtils.response(exchange, WorkshopController.numberOfPlaces(exchange));
                         break;
 
                     case "/ship":
-                        Util.response(exchange, WorkshopController.ship(exchange));
+                        HttpUtils.response(exchange, WorkshopController.ship(exchange));
                         break;
 
                     default:
-                        Util.response(exchange, 404);
+                        HttpUtils.response(exchange, 404);
 
                 }
                 break;
 
             default:
-                Util.response(exchange, 404);
+                HttpUtils.response(exchange, 404);
 
         }
 

@@ -4,7 +4,7 @@ import com.google.gson.Gson;
 import com.sun.net.httpserver.HttpExchange;
 import org.scavver.workshop.entity.Starship;
 import org.scavver.workshop.entity.Workshop;
-import org.scavver.workshop.http.Util;
+import org.scavver.workshop.http.HttpUtils;
 
 import java.io.IOException;
 
@@ -19,7 +19,7 @@ public class WorkshopController {
 
         gson = new Gson();
 
-        workshop = gson.fromJson(Util.jsonHandler(exchange), Workshop.class); // Deserialization
+        workshop = gson.fromJson(HttpUtils.jsonHandler(exchange), Workshop.class); // Deserialization
 
         // Logic
 
@@ -31,7 +31,7 @@ public class WorkshopController {
 
         gson = new Gson();
 
-        starship = gson.fromJson(Util.jsonHandler(exchange), Starship.class); // Deserialization
+        starship = gson.fromJson(HttpUtils.jsonHandler(exchange), Starship.class); // Deserialization
 
         // Logic
 

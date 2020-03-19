@@ -9,7 +9,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Util {
+public class HttpUtils {
 
     /**
      * Gets a HTTP request body with 'Content-Type: application/json' header.
