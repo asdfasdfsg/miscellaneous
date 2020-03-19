@@ -2,8 +2,8 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2020-03-13T15:38:56</date>
-  <millis>1584103136821</millis>
+  <date>2020-03-19T10:43:39</date>
+  <millis>1584603819313</millis>
   <sequence>0</sequence>
   <logger>org.scavver.workshop.WorkshopServer</logger>
   <level>INFO</level>
@@ -12,3 +12,4 @@
   <thread>1</thread>
   <message>Server started on 127.0.0.1:8888</message>
 </record>
+</log>
